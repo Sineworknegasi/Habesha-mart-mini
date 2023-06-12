@@ -59,11 +59,11 @@ function Navbar() {
           </Link>
           <Link onClick={() => setMobileNav(!mobileNav)}
             to="login">
-            Log in <FiLogIn />
+              <FiLogIn />Login
           </Link>
           <Link onClick={() => setMobileNav(!mobileNav)}
             to="signup">
-            Sign Up <FaUser />
+              <FaUser />SignUp
           </Link>
         </div>
       </div>
@@ -115,9 +115,11 @@ function Navbar() {
               </Link >
               <Link onClick={() => window.scrollTo(0, 0)} to="login">
                 <FiLogIn />
+                <p className="hovers1">Login</p>
               </Link>
               <Link onClick={() => window.scrollTo(0, 0)} to="signup">
                 <FaUser />
+                <p className="hovers2">Sign up</p>
               </Link>
               <i
                 data-array-length={cartItem.length}

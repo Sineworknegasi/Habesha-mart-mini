@@ -8,7 +8,7 @@
 }
 
 .news h2 {
-    color: white;
+    color: black;
     font-size: 3.5rem;
     margin-bottom: 2rem;
 }
@@ -19,7 +19,7 @@
 
 .news input {
     font-size: 1.7rem;
-    padding: .7rem;
+    padding: 1.7rem;
     margin-right: .7rem;
     border: none;
     outline: none;
@@ -27,9 +27,15 @@
 
 .news button {
     font-size: 1.7rem;
-    padding: .7rem;
+    padding: 1.7rem;
     border: none;
     cursor: pointer;
+    color: black;
+}
+.news button:hover {
+    color: white;
+    background-color: black;
+    transition: all .3s ease-in;
 }
 
 @media (max-width:400px) {

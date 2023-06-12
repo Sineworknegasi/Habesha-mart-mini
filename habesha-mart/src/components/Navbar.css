@@ -27,6 +27,7 @@
 
 .nav-container.cont-sticky {
     height: 8rem !important;
+    position: relative;
 }
 
 .navbar-fixed {
@@ -43,15 +44,25 @@
 }
 
 .nav-links {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     display: flex;
-    gap: 2.5rem;
+    gap: 2.3rem;
+    align-items: center;
 }
 
 .nav-links a {
+    display: flex;
     color: white;
     text-decoration: none;
+    align-items: center;
+    font-size:1.8rem;
+}
+.nav-links a svg {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
     font-size: 25px;
 }
 
@@ -197,6 +208,7 @@
     font-size: 1.7rem;
     margin-top: 3rem;
     cursor: pointer;
+    color: #000000;
 }
 
 .closed-cart {
