@@ -77,6 +77,7 @@ a {
 
 .filter-btns button {
     padding: 1rem 1.8rem;
+    color: black;
     cursor: pointer;
     background-color: transparent;
     border: 2px solid rgba(0, 0, 0, 0.3);

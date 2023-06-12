@@ -1,0 +1,209 @@
+.Login-bg {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg);
+}
+.Login-form-area{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+.Login-form-area .Login-form {
+    background: #fff;
+    padding: 55px 60px 50px 50px;
+    box-shadow: 0px 10px 30px 0px rgba(13,12,13,0);
+}
+.Login-form-area .Login-form .Login-heading {
+    text-align: center;
+}
+.Login-form-area .Login-form .Login-heading span {
+    color: #140C40;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: block;
+    text-transform: capitalize;
+}
+.Login-heading p {
+    font-family: "Poppins",sans-serif;
+    color: #646D77;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+.Login-form-area .Login-form .input-box {
+    padding-top: 35px;
+    padding-bottom: 75px;
+}
+.Login-form-area .Login-form .input-box .single-input-fields label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 6px;
+    color: #140C40;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: left;
+}
+.Login-form-area .Login-form .input-box .single-input-fields input {
+    border: 1px solid #C9C9C9;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+    color: #000;
+}
+.Login-check {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    overflow: hidden;
+}
+.Login-form-area .Login-form .input-box .single-input-fields input {
+    border: 1px solid #C9C9C9;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+    color: #000;
+}
+.Login-form-area .Login-form .input-box .single-input-fields label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: #140C40;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: left;
+}
+.Login-check input[type=checkbox] {
+    display: none;
+}
+.Login-check input[type=checkbox]:checked+label:before {
+    background-color: #FD8F5F;
+    border-color: #FD8F5F;
+    color: #fff;
+    line-height: 18px;
+}
+.Login-check input[type="checkbox"]+label::before {
+    content: "\2714";
+    border: 0.1em solid #e4e4e4;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    padding-left: 0em;
+    padding-bottom: 0.3em;
+    margin-right: 10px;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+.Login-check a {
+    color: #FD8F5F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.f-right {
+    float: right;
+    text-decoration: none;
+}
+.Login-form-area .Login-form .Login-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Login-form-area .Login-form .Login-footer p {
+    margin: 0;
+}
+.Login-bg .p{
+    font-family: "Poppins",sans-serif;
+    color: #646D77;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+.Login-form-area .Login-form .Login-footer p a {
+    color: #f37c49;
+    text-decoration: none;
+}
+
+.Login-bg a, button {
+    color: #fff;
+    outline: medium none;
+}
+.Login-bg a {
+    color: #635c5c;
+}
+.submit-btn3 {
+    background: #FD8F5F;
+    height: 60px;
+    padding: 10px 43px;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+@media (max-width:1027px) {
+    .Login-form-area {
+        width: 100%;
+        height: 50%;
+    }
+}
+@media (max-width:540px) {
+    .Login-form-area {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .submit-btn3  {
+        width: 30px;
+        font-size: 15px;
+        padding:0;
+        width: 200px;
+    }
+    .p a{
+        font-size: small;
+    }
+    .Login-footer .p {
+        font-size:small;
+    }
+    .fruit1 f-right {
+        font-size: 2px;
+    }
+    .Login-form-area .Login-form .input-box .single-input-fields label {
+        font-size: 15px;
+        margin-right: 3px;
+    }
+}
+@media (max-width:380px) {
+    .submit-btn3  {
+        width: 30px;
+        font-size: 15px;
+        padding:0;
+        width: 200px;
+    }
+    .p a{
+        font-size: small;
+    }
+    .Login-footer .p {
+        font-size:small;
+    }
+    .fruit1 f-right {
+        font-size: 2px;
+    }
+    .Login-form-area .Login-form .input-box .single-input-fields label {
+        font-size: 15px;
+        margin-right: 3px;
+    }
+}

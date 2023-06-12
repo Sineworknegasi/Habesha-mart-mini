@@ -57,11 +57,13 @@ function Navbar() {
           >
             product page
           </Link>
-          <Link>
-            Login <FiLogIn />
+          <Link onClick={() => setMobileNav(!mobileNav)}
+            to="login">
+            Log in <FiLogIn />
           </Link>
-          <Link>
-            Logout <FaUser />
+          <Link onClick={() => setMobileNav(!mobileNav)}
+            to="signup">
+            Sign Up <FaUser />
           </Link>
         </div>
       </div>
@@ -100,22 +102,21 @@ function Navbar() {
                 alt="logo"
                 className="logo-img"
               />
-              <h1 className='brandname'>Habesha mart</h1>
             </Link>
             <div className="nav-links">
               <Link onClick={() => window.scrollTo(0, 0)} to="/categories/all">
-                Products
+                Catagories
               </Link>
               <Link
                 onClick={() => window.scrollTo(0, 0)}
                 to="/categories/product/1"
               >
                 product page
-              </Link>
-              <Link>
+              </Link >
+              <Link onClick={() => window.scrollTo(0, 0)} to="login">
                 <FiLogIn />
               </Link>
-              <Link>
+              <Link onClick={() => window.scrollTo(0, 0)} to="signup">
                 <FaUser />
               </Link>
               <i

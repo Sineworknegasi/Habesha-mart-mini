@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import Login from "./pages/Login";
 import Categories from "./pages/Categories";
 import All from "./components/Categories-pages/All";
 import Furnitures from "./components/Categories-pages/Furnitures";
@@ -11,6 +12,7 @@ import Chairs from "./components/Categories-pages/Chairs";
 import SkinCare from "./components/Categories-pages/SkinCare";
 import ProductPage, { CartContext } from "./pages/ProductPage";
 import { useEffect, useState } from "react";
+import Register from "./pages/Register";
 
 function App() {
   const [cartItem, setCartItem] = useState([]);
@@ -38,7 +40,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route index path="/" element={<Home />} />
-
+        <Route index path="login" element={<Login />} />
+        <Route index path="signup" element={<Register />} />
         <Route path="categories" element={<Categories />}>
           <Route path="all" element={<All />} />
           <Route path="furnitures" element={<Furnitures />} />

@@ -57,6 +57,7 @@
 
 .nav-links a:hover {
     text-decoration: underline;
+    color: white;
 }
 
 .nav-links i {
@@ -372,12 +373,12 @@
     padding-top: 4rem;
 }
 @media (max-width:1000px){
-    .brandname {
+    .brandnames {
         left: 12%;
     }
 }
 @media (max-width:800px){
-    .brandname {
+    .brandnames {
         visibility: hidden;
     }
 }
@@ -401,7 +402,7 @@
         width: 100%;
     }
 
-    .brandname{
+    .brandnames{
         visibility: hidden;
     }
 
@@ -432,7 +433,7 @@
         flex-direction: column;
         align-items: center;
     }
-    .brandname{
+    .brandnames{
         visibility: hidden;
     }
 
