@@ -45,18 +45,17 @@ function Navbar() {
           className="fa-sharp fa-solid fa-xmark"
         ></i>
         <div className="mobile-links">
+          <Link onClick={() => setMobileNav(!mobileNav)} to="/" >Home</Link>
           <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/all">
-            catagories
+            Product
           </Link>
           <Link onClick={() => setMobileNav(!mobileNav)} to="/categories/lamps">
             lamps
           </Link>
-          <Link
-            onClick={() => setMobileNav(!mobileNav)}
-            to="/categories/product/19"
-          >
-            product page
-          </Link>
+          <Link onClick={() => setMobileNav(!mobileNav)} to="about">About</Link>
+          <Link onClick={() => setMobileNav(!mobileNav)} to="blog">Blog</Link>
+          <Link onClick={() => setMobileNav(!mobileNav)}
+            to="contact">Contact</Link>
           <Link onClick={() => setMobileNav(!mobileNav)}
             to="login">
               <FiLogIn />Login
@@ -104,16 +103,16 @@ function Navbar() {
               />
             </Link>
             <div className="nav-links">
+              <Link to="/">Home</Link>
               <Link onClick={() => window.scrollTo(0, 0)} to="/categories/all">
-                Catagories
+                Product
               </Link>
-              <Link
-                onClick={() => window.scrollTo(0, 0)}
-                to="/categories/product/1"
-              >
-                product page
-              </Link >
-              <Link onClick={() => window.scrollTo(0, 0)} to="login">
+              <Link onClick={() => window.scrollTo(0, 0)} to="about">ABout</Link>
+              <Link onClick={() => window.scrollTo(0, 0)} to="blog">Blog</Link>
+              <Link onClick={() => window.scrollTo(0, 0)} to="contact">Contact</Link>
+            </div>
+            <div className="nav-links">
+            <Link onClick={() => window.scrollTo(0, 0)} to="login">
                 <FiLogIn />
                 <p className="hovers1">Login</p>
               </Link>

@@ -12,13 +12,32 @@ a {
     font-size: 2.6rem;
     font-weight: 600;
     margin-bottom: 4.2rem !important;
+    visibility: visible;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
 }
-
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
 .product {
     outline: 2px solid rgba(0, 0, 0, .205);
     outline-offset: -2px;
     transition: all 0.15s ease-in;
     cursor: pointer;
+    visibility: visible;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
 }
 
 .product:hover {
