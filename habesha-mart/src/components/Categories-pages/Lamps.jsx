@@ -7,7 +7,6 @@ function Lamps() {
     <>
       <CategoriesItemLamps />
       <Newsletter />
-      <Footer />
     </>
   );
 }

@@ -7,7 +7,6 @@ function All() {
     <>
       <CategoriesItem />
       <Newsletter />
-      <Footer />
     </>
   );
 }

@@ -121,7 +121,6 @@ function ProductPage() {
         </div>
         <TrendingSlider />
         <Newsletter />
-        <Footer />
       </div>
     </>
   );

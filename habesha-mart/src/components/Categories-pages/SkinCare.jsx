@@ -7,7 +7,6 @@ function SkinCare() {
     <>
       <CategoriesItemSkinCare />
       <Newsletter />
-      <Footer />
     </>
   );
 }

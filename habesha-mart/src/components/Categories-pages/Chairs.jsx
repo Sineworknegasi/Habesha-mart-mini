@@ -7,7 +7,6 @@ function Chairs() {
     <>
       <CategoriesItemChairs />
       <Newsletter />
-      <Footer />
     </>
   );
 }

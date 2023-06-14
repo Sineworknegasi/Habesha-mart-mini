@@ -7,7 +7,6 @@ function Kitchen() {
     <>
       <CategoriesItemKitchen />
       <Newsletter />
-      <Footer />
     </>
   );
 }

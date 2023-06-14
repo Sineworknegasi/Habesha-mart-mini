@@ -7,7 +7,6 @@ function Furnitures() {
     <>
       <CategoriesItemFurniture />
       <Newsletter />
-      <Footer />
     </>
   );
 }
