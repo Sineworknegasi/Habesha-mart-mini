@@ -61,6 +61,17 @@
     flex-direction:row;
     justify-content: space-around;
 }
+@media(max-width:480px) {
+    .services {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cat-icon {
+        font-size: 4rem;
+    }
+
+}
 .cat-icon{
     color: #BD8F53;
     font-size: 6rem;

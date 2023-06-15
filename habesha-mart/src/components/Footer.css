@@ -1,14 +1,14 @@
 @import "@fontsource/poppins";
 :root{
     --color-212529:#212529;
-    --color-1d2547:#1d2547;
+    --color-25150B:#25150B;
     --color-c2c5db:#C2C5DB;
 }
 
 .footer-area.footer-padding{
     color: var(--color-212529);
     font-size: 16px;
-    background-color: var(--color-1d2547);
+    background-color: var(--color-25150B);
     padding: 80px 10px 0px;   
 }
 .single-footer-caption{
